@@ -24,12 +24,7 @@ run "Course API, query on title, return registration GUID for any registration" 
 
 run "Course API, query on title, return registration GUID for all registrations" ${BRIGHT_URL}'/bright/api/v2/course?api_key='${BRIGHT_API_KEY}'&fields=title,registrations.registration_guid&title=Adapt%20SCORM'
 
-run "Course API, query on title, return registration GUID for all registrations" ${BRIGHT_URL}'/bright/api/v2/course?api_key='${BRIGHT_API_KEY}'&fields=title,registrations.registration_guid&title=Adapt%20SCORM'
 
-
-run "Get registration data by Registration GUID" ${BRIGHT_URL}'/bright/api/v2/registration?api_key='${BRIGHT_API_KEY}'&registration_guid=animal6347library-elm-adapt-lms-test-v19b1a0014-9b63-44bc-b2a9-9d0ae99551df-K5KaaMuQ2f-BgVmMZwhDrQ'
-
-run "Get registration list for my user" ${BRIGHT_URL}'/bright/api/v2/registration?api_key='${BRIGHT_API_KEY}'&fields=course_guid,registration_guid'
 
 # API Calls using realm keys.   These should be run in the webserver only, don't expose these keys to the browser:
 
