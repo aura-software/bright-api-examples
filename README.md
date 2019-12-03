@@ -10,6 +10,12 @@ export BRIGHT_REALM_SECRET_KEY=...
 
 You can get these values from <a href="https://bright.aura-software.com/contact-us/" target="Bright Support">Bright Support</a>
 
+Once this is set up, run one of the examples:
+
+    cd examples
+	./course.sh
+
+
 # Get the full API Documentation
 
 This is available from

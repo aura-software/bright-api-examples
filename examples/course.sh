@@ -1,8 +1,7 @@
 
 
-. helpers.sh
-. config.sh
-
+. ../helpers.sh
+. ../config.sh
 
 ##
 # Output shows full URL, headers returned, and body
