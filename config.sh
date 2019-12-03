@@ -1,0 +1,9 @@
+# export BRIGHT_API_KEY=15c549e513d10a482cc0523322fc0162
+# export BRIGHT_URL=https://bright-eu-64.aura-software.com
+
+
+export BRIGHT_URL=http://localhost:3000
+export BRIGHT_API_KEY=eb3959808168679109818ef5353c8560
+
+export BRIGHT_REALM_GUID=sJLtP8Zt8G0Sbz9kxPjQ
+export BRIGHT_REALM_SECRET_KEY=PcVQflTCUIbe3ps2T86KXAzvXzdpFcgs5Mvku03uZ8w
